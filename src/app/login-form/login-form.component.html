@@ -1,0 +1,15 @@
+<div id="login-form">
+    <form>
+      <h1>{{title}} Authentication</h1>
+      <p>Fill out this form to login.</p>
+      <hr />
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter your email" id="email" name="email" [(ngModel)]="email" required/>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter your password" id="psw" name="psw" [(ngModel)]="password" required/>
+  
+      <p><button (click)="login()" type="submit">Login</button> | <button routerLink="/register" type="button">Register</button></p>
+    </form>
+  </div>

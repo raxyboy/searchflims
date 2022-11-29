@@ -26,5 +26,12 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
+  },
+  "paths": {
+    "@models/*": ["src/app/models/*"],
+    "@services/*": ["src/app/services/*"],
+    "@guards/*": ["src/app/guards/*"],
+    "@pipes/*": ["src/app/pipes/*"],
+    "@components/*": ["src/app/components/*"]
   }
 }
